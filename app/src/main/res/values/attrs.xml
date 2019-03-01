@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--GradientNavigationTextView-->
+    <declare-styleable name="GradientNavigationTextView">
+        <attr name="text"/>
+        <attr name="text_size"/>
+        <attr name="text_normal_color"/>
+        <attr name="text_focus_color"/>
+        <attr name="progress"/>
+        <attr name="direction"/>
+    </declare-styleable>
+    <attr name="text" format="string"/>
+    <attr name="text_size" format="dimension"/>
+    <attr name="text_normal_color" format="color|reference"/>
+    <attr name="text_focus_color" format="color|reference"/>
+    <attr name="progress" format="float"/>
+    <attr name="direction">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+        <enum name="top" value="2"/>
+        <enum name="bottom" value="3"/>
+    </attr>
+</resources>
